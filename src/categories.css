@@ -1,0 +1,73 @@
+.categories-box-main {
+    display: flex;
+}
+.categories-box-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    width: 100%;
+}   
+
+.categories-inner-box {
+    width: 16%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 22px 20px;
+}
+span.categories-icons svg {
+    fill: #c1c1c1;
+}
+.categories-inner-box ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+span.categories-icons svg {
+    font-size: 50px;
+}
+.categories-inner-box h5 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+.categories-inner-box ul li {
+    font-size: 14px;
+    color: #666;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.categories-inner-box ul li p span svg {
+    font-size: 16px ;
+    font-weight: 500;
+}
+.categories-box-main ul li span {
+    color: #a57283;
+    font-weight: 700;
+}
+.categories-inner-box:hover svg {
+    fill: #a57283;
+}
+.categories-inner-box:hover{
+    -webkit-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+}
+section.categories-sec {
+    padding: 80px 0px;
+}
+.categories-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.categories-heading h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fbc303;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.categories-heading h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

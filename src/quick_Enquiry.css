@@ -1,0 +1,89 @@
+section.enquiry-sec {
+    padding: 80px;
+    width: 100%;
+    position: relative;
+}
+.enquiry-row {
+    display: flex;
+}
+.enquriy-left-side {
+    width: 60%;
+    padding: 0px 30px
+}
+.enquriy-right-side {
+    width: 40%;
+    border: solid 2px #ccc;
+    padding: 40px;
+}
+.enquriy-left-inner-box {
+    text-align: center;
+    padding: 0px 60px;
+}
+.enquriy-left-inner-box h1 span {
+    color: #a57283;
+    font-weight: 700;
+}
+.enquriy-left-inner-box h1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.enquriy-left-inner-box p {
+    font-size: 17px;
+    color: #333;
+    font-weight: 500;
+    line-height: 30px;
+}
+.enquriy-left-inner-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.enquriy-left-inner-box a {
+
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: #f4c815;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.enquriy-form h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #a57283;
+    margin-bottom: 20px;
+}
+.enquriy-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.enquriy-form input {
+    border: solid 1px #ccc;
+    display: block;
+    width: 100%;
+    padding: 10px 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 21px;
+}
+.enquriy-form button {
+    
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        background: #f4c815;
+        display: block;
+        border-radius: 5px;
+        margin-top: 30px;
+        width: 100%;
+        font-size: 16px;
+        border: solid 2px #f4c815;
+    }
+
+

@@ -1,0 +1,32 @@
+section.sing-from {
+    padding: 60px;
+}
+.sing-form form lable {
+    display: block;
+}
+.sing-form form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 350px;
+}
+.sing-form form lable {
+    display: block;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+section.sing-from h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.sing-form button {
+    display: block;
+    margin-top: 20px;
+    width: 200px;
+    padding: 11px;
+    font-size: 16px;
+}
+p.form-alert {
+    color: red;
+}

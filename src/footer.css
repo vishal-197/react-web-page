@@ -1,0 +1,98 @@
+footer.footer-sec {
+    padding: 0px 60px;
+    background: #f5f5f5;
+}
+.footer-header {
+    width: 100%;
+    display: flex;
+    border-bottom: solid 1px #bab8b8;
+    align-items: center;
+    padding: 60px 0px 31px;
+}
+.footer-associated-img {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.footer-logo {
+    width: 17%;
+}
+.footer-associated {
+    width: 18%;
+}
+.footer-associated-img {
+    width: 65%;
+}
+.footer-logo h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer-logo span svg {
+    font-size: 12;
+    font-size: 16px;
+    background: #3a9933;
+    margin-right: 3px;
+    color: #fff;
+}
+.footer-logo p {
+    font-size: 12px;
+}
+.footer-logo p span svg {
+    font-size: 12px;
+}
+.footer-logo p span {
+    font-weight: 500;
+}
+.footer-associated {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .footer-associated-img span {
+    display: inline-block;
+    width: 130px;
+    height: auto;
+} */
+.footer-associated-img span img {
+    max-width: 180px;
+    max-height: 102px;
+}
+.footer-body {
+    display: flex;
+}
+.footer-company-profile, .footer-company-partners, .footer-tour-oper, .footer-comp-support {
+    width: 25%;
+}
+
+.footer-company-profile ul, .footer-company-partners ul, .footer-tour-oper ul, .footer-comp-support ul {
+    list-style: none;
+}
+.footer-company-profile ul li, .footer-company-partners ul li, .footer-tour-oper ul li, .footer-comp-support ul li {
+    line-height: 30px;
+}
+.footer-body h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+.footer-body  span {
+    background: #fff;
+    text-transform: capitalize;
+    padding: 0px 5px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 11px;
+    color: #a57283;
+    line-height: 23px;
+    margin-left: 5px;
+}
+.footer-company-profile ul a, .footer-company-partners ul a, .footer-tour-oper ul a, .footer-comp-support ul a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    text-transform: capitalize;
+}

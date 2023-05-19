@@ -15,7 +15,7 @@
     width: 70%;
 }
 .header_top_right_menu {
-    width: 11%;
+    width: 12%;
     display: flex;
     justify-content: end;
 }
@@ -46,7 +46,7 @@
     margin: 0px 30px;
     position: relative;
 }
-button {
+.header-top-row button button {
     border: none;
     background: none;
     width: 45px;

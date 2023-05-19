@@ -72,66 +72,64 @@ function HeorSection() {
               </div>
             </div>
           </Carousel>
-          
         </div>
         <div className="hero-right-side-box">
-          <h1>
-            Let up plan you a perfect <span>India Holiday</span>{" "}
-          </h1>
-          <p>Personalised, well-crafted tour packages for best experiences</p>
+          <div className="hero-right-side-heading">
+            <h1>
+              Let up plan you a perfect <span>India Holiday</span>
+            </h1>
+            <p>Personalised, well-crafted tour packages for best experiences</p>
+          </div>
 
           <div className="right-side-crousel-main-box">
-            <Carousel responsive={responsive1}          
-            itemClass="carousel-item-padding-40-px"
-             >
+            <Carousel
+              responsive={responsive1}
+              itemClass="carousel-item-padding-40-px"
+            >
               <div className="card crousel-inner-box">
-                <img src="./img/india-holiday-heritage.jpg"/>
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
+                <Link to="">
+                  <img src="./img/india-holiday-heritage.jpg" />
+                  <div className="carousel_inner_text1">
+                    <h3>Wildlife</h3>
+                    <p>70+ packages</p>
+                  </div>
+                </Link>
               </div>
               <div className="card crousel-inner-box">
-                <img src="./img/india-holiday-pilgrimage.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
-              </div>
-              <div className="card crousel-inner-box" > 
-                <img src="./img/india-holiday-trekking.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
+                <Link to="">
+                  <img src="./img/india-holiday-pilgrimage.jpg" />
+                  <div className="carousel_inner_text1">
+                    <h3>heritage</h3>
+                    <p>25+ packages</p>
+                  </div>
+                </Link>
               </div>
               <div className="card crousel-inner-box">
-                <img src="./img/india-holiday-wildlife.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
+                <Link to="">
+                  <img src="./img/india-holiday-trekking.jpg" />
+                  <div className="carousel_inner_text1">
+                    <h3>Frozen kailah Temple</h3>
+                    <p>70+ packages</p>
+                  </div>
+                </Link>
               </div>
               <div className="card crousel-inner-box">
-                <img src="./img/india-holiday-wildlife.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
+                <Link to="">
+                  <img src="./img/india-holiday-wildlife.jpg" />
+                  <div className="carousel_inner_text1">
+                    <h3>Frozen kailah Temple</h3>
+                    <p>65+ packages</p>
+                  </div>
+                </Link>
               </div>
               <div className="card crousel-inner-box">
-                <img src="./img/adi-kailsah.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
-              </div>
-              <div className="card crousel-inner-box">
-                <img src="./img/adi-kailsah.jpg" />
-                <div className="carousel_inner_text">
-                  <h1>Frozen kailah Temple</h1>
-                  <Link to="">06 Nights - 07 Days</Link>
-                </div>
+                <Link to="">
+                  <img src="./img/india-holiday-wildlife.jpg" />
+                  <div className="carousel_inner_text1">
+                    <h3>Frozen kailah Temple</h3>
+                    <p>35+ packages</p>
+                  </div>
+                </Link>
               </div>
             </Carousel>
           </div>

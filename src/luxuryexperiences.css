@@ -1,0 +1,133 @@
+section.luxury-experiences .grid_list {
+    display: flex;
+    width: 100%;
+    padding: 0px 50px;
+}
+.grid_list .left-side {
+    width: 55%;
+}
+.left-side-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+}
+.img-content {
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+.img-content h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.img-content p {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 11px;
+}
+.img-content a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background: #f4c815;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 23px;
+}
+.right-side-inner-row {
+    display: flex;
+}
+.right-side-box {
+    width: 32%;
+}
+.right-side-box2 {
+    width: 32%;
+}
+.right-side-box3 {
+    width: 32%;
+}
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side-box2 .box1 {
+    width: 100%;
+}
+.right-side {
+    width: 45%;
+}
+.left-side-card .img-box1 {
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.left-side-card .img-box2 {
+    width: 100%;
+    height: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.img-box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-side-inner-row {
+    display: flex;
+    justify-content: space-between;
+}
+.right-side-box .box2 {
+    width: 100%;
+    height: 190px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.right-side-box .box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-side-box .inner-box {
+    padding: 10px 0px 10px 10px;
+}
+.right-side-box .box1 {
+    width: 100%;
+    height: 270px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.img-box1.bg:after, .img-box2.bg:after, .box1.bg:after, .box2.bg::after {
+    background-color:rgba(0,0,0,0.19);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    /* padding: 10px; */
+}
+.right-side .content h1 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+
+}

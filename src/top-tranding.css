@@ -1,0 +1,110 @@
+section.Top-Tranding-sec {
+    padding: 60px 0px;
+}
+section.Top-Tranding-sec {
+    text-align: center;
+}
+.Top-tran-card-sec {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+}
+.Top-tran-inner-card {
+    width: 18.7%;
+    height: 350px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.img-box {
+    width: 100%;
+    height: 350px;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-box {
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(05deg, #000000, rgba(0, 0, 0, 0.4));
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.content-box h3 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+}
+.tranding-meta {
+    position: absolute;
+    bottom: -70px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+.tranding-meta h6 {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+.tranding-meta p {
+    font-size: 14px;
+    color: #fff;
+}
+.total-guests h5 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.total-guests {
+    padding: 15px 0px;
+    border-top: solid 1px #ffffff7a;
+    border-bottom: solid 1px #ffffff7a;
+    margin: 16px;
+}
+.tranding-meta a {
+    background: #f4c815;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: solid 2px #f4c815;
+}
+h4.rating {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h4.rating span {
+    color: #f4c815;
+    margin-right: 5px;
+}
+.top-tranding-heading h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fbc303;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.top-tranding-heading h1 {
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.Top-tran-inner-card:hover .tranding-meta {
+    bottom: 0px;
+}
+.tranding-meta a:hover {
+    background: transparent;
+}

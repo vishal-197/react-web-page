@@ -2,7 +2,7 @@
     display: flex;
 }
 .hero-left-side-box {
-    width: 35%;
+    width: 32%;
 }
 .hero-right-side-box {
     width: 65%;
@@ -15,7 +15,7 @@
 .carousel_inner_text {
     position: absolute;
     bottom: 90px;
-    transform: translatex(25%);
+    transform: translatex(15%);
 }
 .carousel_inner_text h1 {
     color: #fff;
@@ -55,10 +55,10 @@
     height: 400px;
 } */
 .react-multi-carousel-list {
-    height: 450px;
+    height: 620px;
 }
 .react-multi-carousel-track {
-    height: 450px;
+    height: 620px;
 }
 .hero-right-side-box {
     padding-left: 40px;
@@ -70,4 +70,67 @@
 }
 .hero-right-side-box .card.crousel-inner-box {
     padding: 10px;
+}
+.hero-right-side-heading {
+    padding-top: 70px;
+}
+.hero-right-side-heading h1 {
+    font-size: 45px;
+    font-weight: 400;
+    max-width: 450px;
+}
+.hero-right-side-heading h1 span {
+    font-weight: 700;
+    color: #f4c815;
+}
+.hero-right-side-heading p {
+    font-size: 21px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #333;
+}
+.right-side-crousel-main-box {
+    padding-top: 40px;
+}
+.hero-right-side-box .card.crousel-inner-box img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.right-side-crousel-main-box .react-multi-carousel-list {
+    height: 300px;
+}
+.right-side-crousel-main-box .react-multi-carousel-track {
+    height: 300px;
+}
+
+.carousel_inner_text1 {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2xp 2px 2px #ccc;
+    padding: 14px;
+    margin: 12px;
+    position: absolute;
+    /* width: 86%; */
+    bottom: 70px;
+    left: 0px;
+    width: 85%;
+    box-sizing: border-box;
+    transform: translate(10px, 10px);
+    -webkit-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+}
+
+.carousel_inner_text1 h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #010101;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+}
+.carousel_inner_text1 p {
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
 }
