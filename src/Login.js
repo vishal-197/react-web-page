@@ -1,34 +1,41 @@
-import React from 'react'
+// inside src/Login.jsx
+
+import React from "react";
+import { useForm } from "react-hook-form";
+
 
 function Login() {
-  const { register,  formState: { errors }, handleSubmit } = useForm();
-  const onSubmit = (data) => {
-    console.log(data)
-    localStorage.setItem ("userName", data.mail);
-    localStorage.setItem ("password", data.password);
-  };
-  return (
-    <section className='login-page'>
-<div className='login-page-form'>
-<form onSubmit={handleSubmit(onSubmit)}>
+const {
+	register,
+	handleSubmit,
+	formState: { errors },
+} = useForm();
 
-<lable for="mail">Emain </lable>
-{errors.mail && <p className="form-alert" role="alert">{errors.mail?.message}</p>}
-<input placeholder="Enter your email"  {...register("mail", { required: "Email Address is required" })} 
-aria-invalid={errors.mail ? "true" : "false"} />
+const onSubmit = (data) => {
+	const userData = JSON.parse(localStorage.getItem(data.mail));
+	if (userData) { // getItem can return actual value or null
+	if (userData.password === data.password) {
+		console.log(userData.name + " You Are Successfully Logged In");
+	} else {
+		console.log("Email or Password is not matching with our record");
+	}
+	} else {
+	console.log("Email or Password is not matching with our record");
+	}
+};
+return (
+	<>
+	<p className="title">Login Form</p>
 
-
-<lable for="password">password  </lable>
-{errors.password && <p className="form-alert" role="alert">{errors.password?.message}</p>}
-<input type="password"  placeholder="enter your password" {...register ("password", {required:"Enter your password"})} />
-
-<button type="submit"> Submit</button>
-</form>
-</div>
-</section>
-
-  
-  )
+	<form className="App" onSubmit={handleSubmit(onSubmit)}>
+		<input type="email" {...register("email", { required: true })} />
+		{errors.email && <span style={{ color: "red" }}>
+		*Email* is mandatory </span>}
+		<input type="password" {...register("password")} />
+		{/* <input type={"submit"} style={{ backgroundColor: "#a1eafb" }} /> */}
+    <button type="submit">Submit</button>
+	</form>
+	</>
+);
 }
-
-export default Login
+export default Login;

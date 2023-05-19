@@ -9,9 +9,13 @@ import Overview from "./Overview";
 import Quick_Enquiry from "./Quick_Enquiry";
 import Footer from "./Footer";
 import App from "./singup";
-// import Login from "./Login";
+import Login from "./Login";
+
+// export const userData = userDetails({})
 
 function Home() {
+
+  
   return (
     <>
       <Nav />
@@ -24,7 +28,7 @@ function Home() {
       <Quick_Enquiry/>
       <Footer/>
       <App/>
-      {/* <Login/> */}
+      <Login/>
     </>
   );
 }

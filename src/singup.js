@@ -6,12 +6,27 @@ export default function App() {
   const onSubmit = (data) => {
     console.log(data)
 
-  //  const userdetails = {
-  //     userName: mail,
-  //     password: password
-  //   }
-    localStorage.setItem ("userName", data.mail);
-    localStorage.setItem ("password", data.password);
+    localStorage.setItem(data.email, JSON.stringify({
+      email: data.mail,
+      password: data.password
+    }))
+
+    console.log(JSON.parse(localStorage.getItem(data.email)));
+ 
+ 
+    //  const userdetails = {
+  //   userName: data.mail,
+  //   password: data.password
+    // }
+    // localStorage.setItem ("userName", data.mail);
+    // localStorage.setItem ("password", data.password);
+
+    // const userdetails = {
+    //   userName: data.mail,
+    //   password: data.password
+    // };
+
+    
   };
    
   return (
