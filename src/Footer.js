@@ -84,11 +84,16 @@ function Footer() {
                 </div>
             <div className='footer-payment-methods'>
                 <h5>payment methods</h5>
-                <h1>img</h1>
+                <img src="./img/visa-icon.svg"></img>
+                <img src="./img/masterCard-icon.svg"></img>
+                <img src="./img/mestro-icon.svg"></img>
 
             </div>
             <div className='footer-download'>
-                <h1>img</h1>                
+                <h5>download our app</h5>
+                <img src="./img/app-store.svg"></img>
+                <img src="./img/google-play.svg"></img>
+                   
             </div>
 
 

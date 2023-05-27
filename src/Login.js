@@ -16,7 +16,11 @@ const onSubmit = (data) => {
 	if (userData) { // getItem can return actual value or null
 	if (userData.password === data.password) {
 		console.log(userData.name + " You Are Successfully Logged In");
-	} else {
+	} 
+	if (userData.password === data.mail) {
+		console.log(userData.mail + " You Are Successfully Logged In");
+	} 
+	else {
 		console.log("Email or Password is not matching with our record");
 	}
 	} else {
@@ -28,10 +32,10 @@ return (
 	<p className="title">Login Form</p>
 
 	<form className="App" onSubmit={handleSubmit(onSubmit)}>
-		<input type="email" {...register("email", { required: true })} />
+		<input type="email"  autoComplete="email" {...register("email", { required: true })} />
 		{errors.email && <span style={{ color: "red" }}>
 		*Email* is mandatory </span>}
-		<input type="password" {...register("password")} />
+		<input type="password" autoComplete="current-password" {...register("password")} />
 		{/* <input type={"submit"} style={{ backgroundColor: "#a1eafb" }} /> */}
     <button type="submit">Submit</button>
 	</form>

@@ -10,6 +10,8 @@ import Quick_Enquiry from "./Quick_Enquiry";
 import Footer from "./Footer";
 import App from "./singup";
 import Login from "./Login";
+import Add from "./Add";
+import Top_Tour from "./Top_Tour";
 
 // export const userData = userDetails({})
 
@@ -21,14 +23,16 @@ function Home() {
       <Nav />
       <HeorSection />
       <Top_Tranding />
+      <Add/>
+      <Top_Tour/>
       <Trending_Tour />
       <Categories />
       <Luxuryexperiences />
       <Overview />
       <Quick_Enquiry/>
       <Footer/>
-      <App/>
-      <Login/>
+      {/* <App/>
+      <Login/> */}
     </>
   );
 }

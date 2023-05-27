@@ -96,3 +96,60 @@ footer.footer-sec {
     color: #333;
     text-transform: capitalize;
 }
+.footre-follows-us li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.footre-follows-us ul li a img {
+    width: 19px;
+    height: auto;
+}
+.footer-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footre-follows-us {
+    width: 25%;
+}
+.footer-payment-methods {
+    width: 20%;
+}
+.footer-download {
+    width: 30%;
+}
+.footer-bottom h5 {
+    margin-bottom: 22px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.footer-download img {
+    margin-right: 15px;
+}
+.footer-copy-right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px #3333;
+    margin-top: 40px;
+}
+.footer-copy-right span li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.footer-copy-right span ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 20px 0px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.footer-copy-right p {
+    text-transform: capitalize;
+    font-size: 16px;
+}

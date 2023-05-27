@@ -1,0 +1,25 @@
+/* section.home-add-sec {
+    width: 100%;
+    height: 380px;
+    position: relative;
+} */
+.banner-slider-box a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.home-banner-sec .react-multiple-carousel__arrow {
+    top: 40%;
+}
+
+.home-banner-sec .react-multi-carousel-track {
+    height: 270px;
+}
+
+.home-banner-sec .react-multi-carousel-list {
+    height: 270px;
+}
+.banner-slider-box {
+    width: 100%;
+    height: 100%;
+}
